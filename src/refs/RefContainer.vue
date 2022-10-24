@@ -44,6 +44,8 @@ export default {
   justify-content: space-between;
   align-items: normal;
   align-content: stretch;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 .refBlock {
@@ -56,16 +58,20 @@ export default {
 }
 
 .ref {
+  position: fixed;
   margin: 20px;
   border: 2px solid #347dfe;
   padding: 10px;
   background-color: #202025;
   border-radius: 20px;
+  transition-duration: 0.2s;
 }
 
 .ref:hover {
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  padding: 3rem;
 }
 
 .ref img {
